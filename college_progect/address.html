@@ -1,0 +1,109 @@
+<html>
+     <head>
+         <meta charset="utf-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1">
+         <title>index</title>
+         <style type="text/css">
+             
+             *{
+                 margin: 0;
+                 padding: 0;
+             }
+             body {
+                 background-color: #000;
+                 color: white;
+             }
+             ul li{
+                 
+           
+            
+            text-align:center;
+       
+         text-shadow:0 0 20px #ff005b,
+                    0 0 30px #f5405b,
+                    0 0 40px #ff005b,
+                    0 0 50px #ffffff,
+                    0 0 60px #ff005b;
+             }
+             .fly-in-text {
+                 list-style: none;
+                 position: absolute;
+                 left: 50%;
+                 top: 50%;
+                 transform: translateX(-50%) translateY(-50%);
+             }
+             .fly-in-text li {
+                 display: inline-block;
+                 margin-right: 50px;
+                 font-family: Open Sans, Arial;
+                 font-weight: 300;
+                 font-size: 4em;
+                 color: #fff;
+                 opacity: 1;
+                 transition: all 2s ease;
+             }
+             .fly-in-text li:last-child {
+                 margin-right: 0;
+             }
+             .fly-in-text.hidden li {
+                 opacity: 0;
+             }
+             .fly-in-text.hidden li:nth-child(1) { transform: translateX(-200px) translateY(-200px); }
+             .fly-in-text.hidden li:nth-child(2) { transform: translateX(220px) translateY(200px); }
+             .fly-in-text.hidden li:nth-child(3) { transform: translateX(-300px) translateY(-120px); }
+             .fly-in-text.hidden li:nth-child(4) { transform: translateX(210px) translateY(120px); }
+            .fly-in-text.hidden li:nth-child(5) { transform: translateX(-200px) translateY(-200px); }
+             .fly-in-text.hidden li:nth-child(9) { transform: translateX(220px) translateY(200px); }
+             .fly-in-text.hidden li:nth-child(7) { transform: translateX(-300px) translateY(-120px); }
+             .fly-in-text.hidden li:nth-child(6) { transform: translateX(210px) translateY(120px); }
+            .fly-in-text.hidden li:nth-child(10) { transform: translateX(-200px) translateY(-200px); }
+             .fly-in-text.hidden li:nth-child(12) { transform: translateX(220px) translateY(200px); }
+             .fly-in-text.hidden li:nth-child(13) { transform: translateX(-300px) translateY(-120px); }
+             .fly-in-text.hidden li:nth-child(4) { transform: translateX(210px) translateY(120px); }
+             
+             
+         </style>
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+         <script type="text/javascript">
+             
+             $(function() {
+                 
+                 setTimeout(function() {
+                     $('.fly-in-text').removeClass('hidden');
+                 }, 500);
+                 
+             })();
+             
+         </script>
+ 
+     </head>
+     <body>
+ 
+         <ul class="fly-in-text hidden">
+             <li>C</li>
+             <li>B</li>
+             <li>G</li>
+             <li>S</li>
+             <br>
+             <li>L</li>
+             <li>i</li>
+             <li>b</li>
+             <li>r</li>
+             <li>a</li>
+             <li>r</li>
+             <li>y</li>
+             
+             
+         </ul>
+         <h1 style="margin-top: 420px;">
+         Location and Address
+         </h1>
+         <p style="align-content: center;">
+         
+         As you enter its gate, the first sight that greets you is the colour green. Malaviya's wooded acreages, a mere seven kilometers away from the holy city of Gorakhpur, provide the perfect element for the perfect engineer. The University is located on Gorakhpur - Deoria road, about 9 Kilometers from Gorakhpur Railway Station as well as from main Gorakhpur Roadways bus-station
+         </p>
+         
+         
+         
+     </body>
+ </html>

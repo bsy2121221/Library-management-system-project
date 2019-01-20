@@ -1,0 +1,25 @@
+#home{
+    background-color:darkviolet; 
+    height: 110px;
+    width: 100%;
+    border-top-left-radius:50px;
+    border-bottom-right-radius: 50px;
+}
+img {
+    display: inline;
+    float: left;
+}
+h
+{
+    font-size: 50px;
+    color: white;
+    margin: none;
+    float: left;
+    
+    padding: none;
+}
+h3{
+    color:white;
+   
+    
+}
